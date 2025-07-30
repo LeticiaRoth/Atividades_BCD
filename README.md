@@ -10,6 +10,14 @@ O objetivo é consolidar os conhecimentos essenciais para o gerenciamento eficie
 
 ---
 
+## 🚀 Como utilizar
+
+1. Faça o clone do repositório:
+   ```bash
+   git clone https://github.com/LeticiaRoth/Atividades_BD.git
+   
+---
+
 ## 🎯 Objetivos da disciplina
 
 - Entender os fundamentos de bancos de dados  
@@ -33,10 +41,4 @@ O objetivo é consolidar os conhecimentos essenciais para o gerenciamento eficie
 - Backup, restauração e segurança de dados  
 - Projetos e exercícios práticos  
 
----
 
-## 🚀 Como utilizar
-
-1. Faça o clone do repositório:
-   ```bash
-   git clone https://github.com/LeticiaRoth/Atividades_BD.git
