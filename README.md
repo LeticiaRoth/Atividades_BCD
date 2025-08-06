@@ -14,7 +14,7 @@ O objetivo é consolidar os conhecimentos essenciais para o gerenciamento eficie
 
 1. Faça o clone do repositório:
    ```bash
-   git clone https://github.com/LeticiaRoth/Atividades_BD.git
+   git clone https://github.com/LeticiaRoth/Atividades_BCD.git
    
 ---
 
