@@ -294,5 +294,37 @@ values
 -- Inserção de dados Tabela Associativa Categoria/Livro
 insert into Categoria_Livro(id_livro,id_categoria)
 values
-	();
+	(1,6),
+    (2,8),
+    (5,1),
+    (6,2),
+    (7,3),
+    (10,4),
+    (9,9),
+    (3,7),
+    (8,10),
+    (4,5);
+    
+
+-- Para visualizar os dados dentro da tabela
+select * from Usuario;
+select * from Autor;
+select * from Livro;
+select * from Categoria;
+select * from Emprestimo;
+select * from Autor_Livro;
+select * from Categoria_Livro;
+
+-- Função (PESQUISADA) para ver quais usuários entregaram com atrasado
+select count(distinct id_usuario, nome) as usuario_entrega_atrasada
+from Emprestimo
+where data_devolucao > data_limite_devolucao;
+
+-- Para visualizar as tabelas
+show tables;    
+
+-- Ver os campos de uma tabela especifica
+describe Usuario;
+
+
 drop database biblioteca_leticia;
