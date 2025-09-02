@@ -316,9 +316,12 @@ select * from Autor_Livro;
 select * from Categoria_Livro;
 
 -- Função (PESQUISADA) para ver quais usuários entregaram com atrasado
-select count(distinct id_usuario, nome) as usuario_entrega_atrasada
-from Emprestimo
-where data_devolucao > data_limite_devolucao;
+select count(*) as usuario_entrega_atrasada
+from (
+	select distinct id_usuario nome
+    from Emprestimo
+    where data_devolucao > data_limite_devolucao
+    ) as t;
 
 -- Para visualizar as tabelas
 show tables;    
