@@ -330,4 +330,3 @@ show tables;
 describe Usuario;
 
 
-drop database biblioteca_leticia;
